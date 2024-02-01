@@ -1,8 +1,6 @@
-// **Taken from starter code in module**
 const addDateSuffix = date => {
   let dateStr = date.toString();
 
-  // get last char of date string
   const lastChar = dateStr.charAt(dateStr.length - 1);
 
   if (lastChar === '1' && dateStr !== '11') {
@@ -84,7 +82,6 @@ module.exports = (
 
   const minutes = dateObj.getMinutes();
 
-  // set `am` or `pm`
   let periodOfDay;
 
   if (dateObj.getHours() >= 12) {
