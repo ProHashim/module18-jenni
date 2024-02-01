@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-// User Schema
+// User Schema, no seed data
 const UserSchema = new Schema(
     {
         username: {
